@@ -45,7 +45,7 @@
                             <div class="col-sm-12 col-lg-10 mx-auto">
                                 <div class="img-logo">
                                     <center>
-                                    <a href="../index.html">    
+                                    <a href="../index.php">    
                                     <img
                                             src="https://img.c3dt.com/VEVUZGtQekNoRi85V0lLNkNKV0hIQT09"
                                             class="logo1">

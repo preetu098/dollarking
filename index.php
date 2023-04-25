@@ -34,6 +34,13 @@
           border-radius: 50%;
           background-color: rgb(228, 148, 0);
         }
+        @media (max-width:500px)
+        {
+          #singleOnemobile
+          {
+            width:200px!important;
+          }
+        }
     </style>
 </head>
 <body>
@@ -112,7 +119,7 @@
                   <li class="nav-item">
                   <a href="client/signup.php">
                     <button class="btn btn-success" style="border-radius: 20px;"><i class="fa fa-user" aria-hidden="true"></i>&nbsp&nbsp&nbspRegisteration</button>
-                   
+      </a>
                   </li>
                 </ul>
               </div>
@@ -428,46 +435,41 @@
     </div>
     
   </div>
-  <div class="container-fluid mt-3" id="five">
+
+
+
+
+  <div class="container-fluid" id="five">
     <div class="text-center">
         <h3 class="text-white">Single Open</h3>
     </div>
     <div class="row">
-        <div class="col-lg"></div>
-        <div class="col-lg" >
-           
-            <button class="btn btn-dark text-white ">0</button>
+      <div class="col-lg-4 col-2 ">
+        
+      </div>
+      <style>
+        .btn1
+        {
+          border-radius:50%;
+        }
+        
+      </style>
+      <div class="col-lg-5 col-12 col-sm-10">
+        <button class="btn btn-dark text-white btn1">0</button>
+        <button class="btn btn-dark text-white btn1">1</button>
+        <button class="btn btn-dark text-white btn1">2</button>
+        <button class="btn btn-dark text-white btn1">3</button>
+        <button class="btn btn-dark text-white btn1">4</button>
+        <button class="btn btn-dark text-white btn1">5</button>
+        <button class="btn btn-dark text-white btn1">6</button>
+        <button class="btn btn-dark text-white btn1">7</button>
+        <button class="btn btn-dark text-white btn1">8</button>
+        <button class="btn btn-dark text-white btn1">9</button>
        
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">1</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">2</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">3</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">4</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">5</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">6</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">7</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">8</button>
-        </div>
-        <div class="col-lg-1">
-          <button class="btn btn-dark text-white ">9</button>
-        </div>
-       
-        <div class="col-lg-1"></div>
+      </div>
+      <div class="col-lg-4 col-2 col-sm-1">
+      
+      </div>
     </div>
   </div>
     <div class="container-fluid mt-5">
@@ -477,37 +479,38 @@
         <button class="btn btn-primary">Take</button>
        </div>
       </div>
+      <style>
+        .btn2
+        {
+          height:100px;
+          width:100px;
+        }
+        @media (max-width:1200px)
+        {
+          .btn2 
+          {
+            width:50px;
+            height:50px;
+            font-size:10px;
+           
+          }
+        }
+      </style>
       <div class="col-lg-8">
         <div class="card bg-dark" style="border-radius: 30px;">
           <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">1</button>
+           
+            <div class="col-lg-12">
+            <button class="btn btn-warning btn2" style="margin-left:15px">5</button>
+            <button class="btn btn-warning btn2">10</button>
+            <button class="btn btn-warning btn2">50</button>
+            <button class="btn btn-warning btn2">100</button>
+            <button class="btn btn-warning btn2">150</button>
+            <button class="btn btn-warning btn2">500</button>
+            <button class="btn btn-warning btn2">1000</button>
+            <button class="btn btn-warning btn2">5000</button>
             </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">5</button>
-            </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">10</button>
-            </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">50</button>
-            </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">100</button>
-            </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">500</button>
-            </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">1000</button>
-            </div>
-            <div class="col-lg-1">
-              <button class="btn btn-dark card11btn">5000</button>
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-1"></div>
+          
           </div>
         </div>
       </div>

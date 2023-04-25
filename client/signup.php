@@ -44,7 +44,7 @@
                         <div class="row">
                             <div class="img-logo" style="margin-top: -170px!important;">
                                 <center>
-                                <a href="../index.html">       
+                                <a href="../index.php">       
                                 <img
                                         src="https://img.c3dt.com/VEVUZGtQekNoRi85V0lLNkNKV0hIQT09"
                                         class="logo1" style="height: 200px;width: 200px;">
